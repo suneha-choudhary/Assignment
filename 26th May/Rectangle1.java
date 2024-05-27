@@ -34,10 +34,3 @@ public class Rectangle1 {
     }
 }
 
-
-// class Rectangle1{
-//     public static void main(String[]args){
-//     System.out.println("Hello World");
-// }
-// }
-
