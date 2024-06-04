@@ -1,10 +1,9 @@
 import java.util.ArrayList;
 
-class ToCheckVowels{
-    String str;
+public class Vowels{
     ArrayList<Character> arr;
 
-    ToCheckVowels(){
+    Vowels(){
         arr = new ArrayList<>();
         arr.add('A');
         arr.add('a');
@@ -17,20 +16,33 @@ class ToCheckVowels{
         arr.add('U');
         arr.add('u');
     }
-    
-    for(int i = 0;i< str.length() ; i++){
-        if (arr[i] == str){
+
+    private boolean isVowel(char c){
+        for(int i = 0;i< arr.size() ; i++){
+        if (c == arr.get(i)){
             return true;
         }
     }
     return false;
+        }
+        public int countVowels(String s){
+            int count = 0;
+            int size = s.length();
+            for(int j = 0; j<size; j++){
+                char c = s.charAt(j);
+                if(isVowel(c)){
+                    count = count+1;
+                }
+            }
+            return count;
+        }
 
-    }
-
-
-public class Vowels {
     public static void main(String[]args){
-        ToCheckVowels obj = new ToCheckVowels();
-        obj.main("This is a String type object");
+        Vowels obj = new Vowels();
+        String str = "Hello World! Hello Java!";
+        int noOfVowel = obj.countVowels(str);
+        System.out.println("String is :" + str);
+        System.out.println("The number of vowels are: " + noOfVowel);
+        
     }
 }
