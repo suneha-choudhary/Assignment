@@ -18,7 +18,7 @@ public class Vowels{
     }
 
     private boolean isVowel(char c){
-        for(int i = 0;i< arr.size() ; i++){
+        for(int i = 0; i< arr.size() ; i++){
         if (c == arr.get(i)){
             return true;
         }

@@ -3,7 +3,7 @@ public class Arr{
     private int arraysize;
     private int array[];
 
-    public void Arr(){
+    public void Array(){
         count = 0;
         arraysize = 1;
         array= new int[1];

@@ -1,7 +1,7 @@
 public class ExcepHand{
     public static void main(String[]args){
         try{
-            int num = 45/0;
+            int n = 45/0;
         }
         catch (ArithmeticException e){
             System.out.println(e);
