@@ -1,5 +1,5 @@
 class MaxValue{
-    static void Maximum(int n){
+    static void Maximum(){
         int i;
         int arr[] = {4,2,5,8,1,3,9,2,10};
         int maxim = arr[0];
@@ -12,7 +12,7 @@ class MaxValue{
     }
 
 public static void main(String[]args){
-    MaxValue.Maximum(10);
+    MaxValue.Maximum();
 }
 }
 
