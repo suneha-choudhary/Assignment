@@ -4,7 +4,7 @@ interface Printable{
 interface Showable{
     void show();
 }
-class Test implements Printable, Showable{
+public class Test implements Printable,Showable{
     public void print(){
         System.out.println("Printing");
     }
@@ -13,6 +13,8 @@ class Test implements Printable, Showable{
     }
 public static void main(String[]args){
     Printable obj1 = new Test();
+    Showable obj = new Test();
+    obj.show();
     obj1.print();
 }
 }
