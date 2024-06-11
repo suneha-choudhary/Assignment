@@ -10,5 +10,6 @@
         "26th May",
         "25th May,2024",
         "6thJune.java"
-    ]
+    ],
+    "java.debug.settings.onBuildFailureProceed": true
 }
