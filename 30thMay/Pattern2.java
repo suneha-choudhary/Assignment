@@ -19,6 +19,7 @@ public class Pattern2 {
 
     }
     public static void main(String[]args){
+
         Pattern2.Patt(4,5);
     }
 }

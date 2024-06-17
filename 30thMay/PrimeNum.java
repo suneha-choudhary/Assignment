@@ -1,6 +1,5 @@
 public class PrimeNum {
     public static void main(String[] args) {
-        
         int i;
         int j;
         int num = 15;
@@ -18,7 +17,6 @@ public class PrimeNum {
             else{
                 temp = 0;
             }
-            
         }
     }
 }
