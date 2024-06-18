@@ -1,7 +1,5 @@
 {
     "java.project.sourcePaths": [
-        "6thJune.java",
-        "5thJune.java",
         "4thJune",
         "31stMay",
         "30thMay",
@@ -10,7 +8,9 @@
         "27thMay",
         "26th May",
         "25th May,2024",
-        "10thJune"
+        "17thJune",
+        "10thJune",
+        "18thJune"
     ],
     "java.debug.settings.onBuildFailureProceed": true
 }

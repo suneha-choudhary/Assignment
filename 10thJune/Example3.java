@@ -3,11 +3,11 @@ public class Example3 {
             int arr[]={0,5, 8, 3, 5, 9};
             int temp[]=new int[arr.length];
             int ans=arr.length+1;
-            for(int i=1;i<=arr.length-1;i++)
+            for(int i=1;i<=arr.length;i++)
             {
                 if(temp[arr[i-1]]==0)
                 {
-                    temp[arr[i-1]]=i;
+                    temp[arr[i-1]]=i; 
                 }
                 else
                 {
