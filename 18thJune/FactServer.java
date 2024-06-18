@@ -15,6 +15,7 @@ public class FactServer {
             int number  = Integer.parseInt(in.readLine());
             PrintWriter out = new PrintWriter(soc.getOutputStream(),true);
             out.println("Factorial of number " + number + " is : " + calculateFact(number));
+            ss.close();
         }
         catch(Exception e){
             e.printStackTrace();

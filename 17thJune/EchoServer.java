@@ -17,7 +17,7 @@ public class EchoServer {
             String str = in.readLine();
             PrintWriter h = new PrintWriter(soc.getOutputStream(),true);
             h.println("Server says : " + str);
-
+            ss.close();
         }
         catch(Exception e){
             e.printStackTrace();

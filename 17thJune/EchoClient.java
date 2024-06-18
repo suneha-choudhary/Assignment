@@ -15,6 +15,7 @@ public class EchoClient {
             h.println(str);
             BufferedReader in = new BufferedReader(new InputStreamReader(soc.getInputStream()));
             System.out.println(in.readLine());
+            soc.close();
         }
         catch(Exception e){
             e.printStackTrace();
